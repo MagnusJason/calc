@@ -79,3 +79,33 @@ body {
 .operator {
     background-color: lightblue;
 }
+
+/* Additional styling to make the calculator look more like the original UI */
+.calculator {
+    width: 300px;
+    margin: 30px auto;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.screen {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10px;
+    font-size: 36px;
+    color: #333;
+}
+
+.input {
+    font-size: 24px;
+    color: #999;
+}
+
+.output {
+    font-size: 36px;
+    color: #333;
+}
