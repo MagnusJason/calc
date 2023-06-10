@@ -1,0 +1,81 @@
+/* Styling for the body element */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the calculator container */
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkgrey;
+}
+
+/* Styling for the calculator screen */
+#screen {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 30px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add margin between the screen and buttons */
+}
+
+/* Styling for the calculator buttons */
+#buttons {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Styling for each button */
+.button {
+    width: 23%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* Styling for the delete button */
+.delete {
+    width: 47%;
+    background-color: orange;
+}
+
+/* Styling for the clear button */
+.clear {
+    width: 47%;
+    background-color: red;
+}
+
+/* Styling for the operator buttons */
+.operator {
+    background-color: lightblue;
+}
