@@ -1,37 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Calculator</title>
+<html>
+  <head>
+    <title>My Simple Calculator Page</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="calculator">
-        <div class="screen">
-            <div class="input" id="stored-input"></div>
-            <div class="output" id="result"></div>
+  </head>
+  <body>
+    <div class="calculator-container">
+        <div id="display">
         </div>
-        <div class="buttons">
-            <div class="button clear" data-value="clear">Clear</div>
-            <div class="button delete" data-value="delete">Delete</div>
-            <div class="button" data-value="7">7</div>
-            <div class="button" data-value="8">8</div>
-            <div class="button" data-value="9">9</div>
-            <div class="button operator" data-value="/">/</div>
-            <div class="button" data-value="4">4</div>
-            <div class="button" data-value="5">5</div>
-            <div class="button" data-value="6">6</div>
-            <div class="button operator" data-value="*">*</div>
-            <div class="button" data-value="1">1</div>
-            <div class="button" data-value="2">2</div>
-            <div class="button" data-value="3">3</div>
-            <div class="button operator" data-value="-">-</div>
-            <div class="button" data-value=".">.</div>
-            <div class="button" data-value="0">0</div>
-            <div class="button operator" data-value="=">=</div>
-            <div class="button operator" data-value="+">+</div>
+        <div id="buttons">
+          <button class="clear">Clear</button>
+          <button class="delete">Delete</button>
+          <button class="number">7</button>
+          <button class="number">8</button>
+          <button class="number">9</button>
+          <button class="operator" value="/">/</button>
+          <button class="number">4</button>
+          <button class="number">5</button>
+          <button class="number">6</button>
+          <button class="operator" value="*">*</button>
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button class="operator" value="-">-</button>
+          <button class="decimal">.</button>
+          <button class="number">0</button>
+          <button class="equals">=</button>
+          <button class="operator" value="+">+</button>
         </div>
-    </div>
+      </div>
+
     <script src="calculator.js"></script>
-</body>
+  </body>
 </html>
